@@ -1136,6 +1136,7 @@ Footer
   background-color: #f7fafc;
   padding: 8px;
   border-radius: 50%;
+  border: none ;
 }
 
 .social__link:hover {
@@ -1243,7 +1244,7 @@ Media Queries
   }
 
   .quality__column--left {
-    margin-right: 36px;
+    margin-right: 50px;
   }
 
   #values {
@@ -1449,6 +1450,20 @@ Media Queries
 
   .user__btn {
     flex-direction: column;
+  }
+
+  .step {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .right__list--content {
+    margin: 0;
+  }
+
+  .left__value,
+  .right__value {
+    margin: 0;
   }
 
 }
